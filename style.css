@@ -2,7 +2,8 @@
 * {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	box-sizing: border-box;
-	outline: 1px solid red;
+	/*outline: 1px solid red;*/
+	color: black;
 }
 
 html, body {
@@ -13,11 +14,18 @@ html, body {
 
 body {
 	background: #005AA3;
+	text-align: center;
+}
+
+.siteHeader {
+	color: #FFFFFF;
 }
 
 .pageContainer, .siteFooter {
 	width: 960px;
 	margin: auto;
+	background: #FFFFFF;
+	padding: 10px;
 }
 
 .pageContainer, .siteFooter {
@@ -25,18 +33,18 @@ body {
 }
 
 .pageHeader {
-	
+	height: 71px;
 }
 
 .logo {
-	width: 320px;
-	height: 75px;
+	width: 316px;
+	height: 71px;
 	float: left;
 }
 
 .nav {
-	width: 640px;
-	height: 75px;	
+	width: 624px;
+	height: 71px;	
 	text-align: center;
 	float: left;
 }
@@ -44,103 +52,164 @@ body {
 .nav ul {
 	display: inline;
 	margin: auto;
-	
+
 }
 
 .nav ul li {
+	padding: 10px;
 	display: inline;
+}
 
+.nav ul li a {
+	color: #13a2d8; 
+	font-size: 20px;
 }
 
 .hero {
-	height: 250px;
+	margin: auto;
+	width: 874px;
+	height: 400px;	
+}
+
+.hero > img {
+	padding-top: 10px;
+	margin-left: 40%;
 
 }
 
 .features {
-	height: 250px;
+	height: 395px;
+	margin-top: 20px;
+}
+
+.featuresBox1 {
+	padding: 10px;
+	width: 295px;
+	float: left;
+	margin: 5px;
+	height: 380px;
+}
+
+.featuresBox1 > p {
+	padding: 10px;
+}
+
+.featuresBox2 {
+	padding: 10px;
+	width: 295px;
+	float: left;
+	margin: 5px;
+	height: 380px;
+}
+
+.featuresBox2 > p {
+	padding: 10px;
+}
+
+.featuresBox3 {
+	padding: 10px;
+	width: 295px;
+	float: left;
+	margin: 5px;
+	height: 380px;
+}
+
+.featuresBox3 > p {
+	padding: 10px;
+}
+
+.featuresBox3 > p > img {
+	margin-right: 0;
+	float: right;
+}
+
+.featBox1Img1 {
+	height: 245px;
+	width: 275px;
+}
+
+.featBox2Img2 {
+	height: 245px;
+	width: 275px;
+}
+
+.featBox3Img3 {
+	height: 245px;
+	width: 275px;
 }
 
 .content {
 	min-height: 300px;
 }
 
-
-/*.addrAndPhone {
-	height: 20px;
-	background: #004E8E;
-	border-bottom: 1px solid #378CCD;
-	color: white;
-	font-size: 10px;
-	text-align: center;
-	padding-top: 5px;
+.contentImg {
+	width: 875px;
+	height: 510px;
+	margin: auto;
 }
 
-.container {
-	width: 80%;
-	height: 90%;
-	margin: 15px auto;
-	background: #FFFFFF;
+.contentVideo {
 	padding-top: 20px;
-	padding-left: 20px;
-
+	height: 458px;
+	width: 785px;
+	margin-left: 75px;
 }
 
-.nav {
-	display: block;
-	text-align: center;
-	margin: 1%;
-	background-color: #efefef;
-	padding: 0.5em 0;
-/*	height: 20px;
-	width: 30px;
-	background: green;
+.pageFooter {
+	height: 46px;
+}
+
+.pageFooterImg {
 	float: right;
-	margin-right: 100px;*/
-	/*display: inline-block;*/
+}
+
+.siteFooter {
+	margin: auto;
+	background: #005AA3;
+	font-size: 12px;
+	height: 40px;
+}
+
+.siteFooterLeft {
+	width: 300px;
+	color: #FFFFFF;
+	float: left;
+}
+
+.siteFooterLeft a {
+	color: #FFFFFF;
+}
+
+.siteFooterCenter {
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+}
+
+.siteFooterCenter a {
+	color: #FFFFFF;
+}
+
+.siteFooterRight {
+	text-align: center;
+	width: 440px;
+	float: left;
+	display: inline;
+	color: #FFFFFF;
+ 	
+}
+
+.siteFooterRight ul {
+	display: inline;
+	margin: auto;
 
 }
 
-.box-set, .box  {
-	border-radius: 6px;
-	/*float: left;*/
-	
+.siteFooterRight ul li {
+	padding: 10px;
+	display: inline;
 }
 
-.box-set {
-	background: #eaeaed;
-  	/*height: 160px;
-  	position: relative;*/
+.siteFooterRight ul li a {
+	color: #FFFFFF; 
 }
-
-.box {
- 	background: #FFFFFF;
- 	float: left;
-  	border: 2px solid #ff7b29;
-  	margin: 1px;
-  	padding: 20px;
-/*  	height: 80px;
-  	line-height: 80px;
-  	position: absolute;*/
-  	text-align: center;
-  	width: 80px;
-}
-
-.sec1box1 {
-	height: 350px;
-	width: 25%;
-	background-image: url("http://www.slcdentalcenter.com/wp-content/uploads/Dentist-in-Utah.png") no-repeat;
-	border: 1px solid gray;
-}
-
-.sec1box2 {
-	height: 40%;
-	width: 25%;
-	border: 1px solid gray;
-}
-
-.sec1box3 {
-	height: 40%;
-	width: 45%;
-	border: 1px solid gray;
-}*/
